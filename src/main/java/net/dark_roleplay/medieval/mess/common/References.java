@@ -21,9 +21,9 @@ public class References {
 	public static final String CREDITS = "Lead Programmer: JTK222, Artists: Rolfaal & Kanno";
     public static final Logger LOGGER = LogManager.getLogger(References.MODID);
     public static final int MAARG_VERSION = 1;
-    
+
 	public static CheckResult VERSION_STATUS;
-	
+
 	public static Side SIDE;
 
 }

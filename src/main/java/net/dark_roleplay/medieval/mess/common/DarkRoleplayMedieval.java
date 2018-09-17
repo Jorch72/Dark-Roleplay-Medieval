@@ -51,7 +51,7 @@ public class DarkRoleplayMedieval {
 	
 	public static boolean isOnServer = false;
 	
-	@SidedProxy(serverSide = "net.dark_roleplay.medieval.common.CommonProxy", clientSide = "net.dark_roleplay.medieval.client.ClientProxy")
+	@SidedProxy(serverSide = "net.dark_roleplay.medieval.mess.common.CommonProxy", clientSide = "net.dark_roleplay.medieval.mess.client.ClientProxy")
 	public static CommonProxy proxy;
 
 	@net.minecraftforge.fml.common.Mod.Instance(References.MODID)
